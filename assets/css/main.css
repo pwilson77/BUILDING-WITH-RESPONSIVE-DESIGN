@@ -72,6 +72,201 @@ table {
 	display: table;
 }
 
+body {
+	margin:0px;
+	font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+}
+
+/*Navbar*/
+
+nav {
+	width: 100%;
+	font-family: Arial;
+}
+
+nav div {
+	width: inherit;
+	padding-left: 20px;	
+	box-sizing: border-box;
+	font-size: small;
+}
+
+nav div:nth-of-type(1) {
+	height:32px;
+	background-color: #131313;
+	padding-top: 10px;
+}
+
+nav div:nth-of-type(1) a {
+	color: #7e7e7e;
+	text-decoration: none;
+	padding-right: 7px;
+}
+
+nav div:nth-of-type(1) a:hover {
+	color: white;
+}
+
+nav div:nth-of-type(1) i {
+	font-size: x-small;
+	padding-top: 2px;
+}
+
+nav div:nth-of-type(2) {
+	height: 48px;
+	background-color: white;
+	font-family: 'Thasadith', sans-serif;
+	display: flex;
+}
+
+nav div:nth-of-type(2) a {
+		padding-top: 20px;
+	text-decoration: none;
+	color: #383737;
+	font-weight: 600;
+	padding-right: 2.5vw;
+}
+
+.TNW2019 {
+	width: auto;
+	padding-top: 13px !important;
+	background-color: unset !important;
+	position: relative;
+	left: 5vw;
+}
+
+.TNW2019 img {
+	width: 125px;
+	height: 10px;
+}
+
+.TNW2019 span {
+	padding-left: 20px;
+	font-weight: 900;
+}
+
+.TNW2019 span:nth-of-type(2) {
+	color: red;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.TNW2019 button {
+	background-color: rgb(0,204,204);
+	width: 80px;
+	height: 28px;
+	font-size: xx-small;
+	font-weight: bolder;
+	border-radius: 3px;
+	border-color: transparent;
+	color: white;
+	margin-left: 20px;
+}
+
+
+nav div:nth-of-type(3) {
+	height: 30px;
+	background-color: #ffdd33;
+	font-family: 'Thasadith', sans-serif;
+	color: #383737;
+	font-weight: 600;
+	padding-top: 7px;
+	word-spacing: 3px;
+}
+
+/*section one*/
+.section-one {
+	display: flex;
+	padding: 2px 7px;
+}
+
+.first {
+	width: 66%;
+	height: 529px;
+}
+.first img {
+	width: 99%;
+	height: 529px;
+}
+
+.second {
+	width: 33%;
+}
+
+.second img {
+	width: 410px;
+	height: 260px;
+}
+
+.larger-content-box {
+	position: relative;
+	margin-top: 10px;
+}
+
+.larger-content-box div {
+	position: absolute;
+    background-color: #000000d9;
+    bottom: 0px;
+    width: 99%;
+    height: 529px;
+    display: flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+
+.larger-content-box header {
+	width: 90%;
+	padding-left: 20px;
+}
+
+.larger-content-box div h1 {
+	color: white;
+	font-size: large;
+}
+
+.larger-content-box div p {
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0px;
+	font-weight: 900;
+}
+
+
+.smaller-content-box div {
+	position: absolute;
+    background-color: #00000078;
+    bottom: 4px;
+    width: 99%;
+    height: 260px;
+    display: flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+
+.smaller-content-box header {
+	width: 90%;
+	padding-left: 10px;
+}
+
+.smaller-content-box h1 {
+	color: white;
+	font-size: large;
+}
+
+.smaller-content-box p {
+	font-size: larger;
+	color: white;
+	font-weight: 700;
+}
+
+.smaller-content-box {
+	position: relative;
+	margin: 10px 3px;
+	box-sizing: border-box;
+}
+
+
 /* Columns */
 [class*="col-"] {
 	float: left;
@@ -88,33 +283,67 @@ table {
 .section-four{
 
 }
+.section-four h2.card-head{
+	color: #f42;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
+.section-four h2.card-head i{
+	font-size: 1rem;
+	font-weight: 100;
+}
 .section-four .card-body{
-	background: url("../image/portal-regulation.jpg") no-repeat, transparent url("../image/image-gradient.png") no-repeat;
-    background-size: inherit;
-	/* background-size: 100% 100%; */
+	background:  url("../image/image-gradient.png") 10% 30% no-repeat, url("../image/portal-regulation.jpg") 50% 10% no-repeat;
+    background-size: cover;
 	padding: 12px;
 	height: 250px;
-	background-position: 50% 10%;
+}
+
+.section-four .card-body p.card-body-text{
+	position: relative;
+	margin-top: 130px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #ffffff;
+}
+
+.section-four .card-body p.card-body-text span{
+	display: block;
+}
+
+.section-four .card-body p.card-body-text span:first-child{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+}
+
+.section-four .card-body p.card-body-text span:last-child{
+	margin-top: 10px;
+	margin-top: 5px;
+	font-size: 0.7rem;
+	font-weight: normal;
 }
 
 .section-four .card-footer-top{
 	width: 100%;
 	margin: 2px 0;
 	background-color: rgba(255,68,34,.06);
+	color: #f42;
 }
 
 .section-four .card-footer-top p{
 	width: 65%;
 	margin: 12px 0 5px 12px;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 1.5;
 }
 
 .section-four .card-footer-top p span{
 	display: block;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	font-weight: 100;
 }
 
 .section-four .card-footer-top img{
@@ -141,4 +370,44 @@ table {
 }
 
 /* Section five */
+.section-five h1{
+	padding: 0 12px;
+	color: #f42;
+	font-size: 1.5rem;
+}
+.section-five h1 i{
+	font-size: 1rem;
+	font-weight: 100;
+}
+.section-five h1 span{
+	font-size: 1rem;
+	font-weight: 100;
+	margin-right: 5px;
+}
+
+.section-five .deal-head{
+	background:  url("../image/sale_14911_primary_image.jpg") 50% 10% no-repeat;
+    background-size: cover;
+	padding: 12px;
+	height: 200px;
+	/* display: block; */
+}
+.section-five .deal-footer p{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.section-five .deal-footer p span{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 100;
+}
+.section-five .deal-footer p span span:only-child{
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: line-through;
+}
+
 /* Footer */

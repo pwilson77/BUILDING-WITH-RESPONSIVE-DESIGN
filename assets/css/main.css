@@ -76,6 +76,7 @@ body {
 	margin:0px;
 	font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 	font-size: 14px;
+	color: #555;
 }
 
 /*Navbar*/
@@ -411,3 +412,47 @@ nav div:nth-of-type(3) {
 }
 
 /* Footer */
+footer .container {
+    width: 100%;
+    padding: 20px 100px;
+}
+footer{
+	text-align: center;
+	display: block;
+	color: #aaa;;
+}
+footer .social{
+	background-color: #131313;
+	color: #fff;
+}
+
+footer .social li{
+	display: inline-block;
+	margin: 0 8px;
+	background: #333;
+    border-radius: 50%;
+    /* display: block; */
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+} 
+
+footer .footer-nav{
+	background-color: #131313;
+}
+
+footer .footer-nav li{
+	display: inline-block;
+	margin: 0 8px;
+    /* padding: 12px; */
+} 
+
+footer .copyright{
+	background-color: #000;
+}
+
+footer .copyright p{
+	margin: 0 auto;
+	/* padding: 30px; */
+}

@@ -223,7 +223,7 @@ nav div:nth-of-type(3) {
 
 .smaller-content-box h1 {
 	color: white;
-	font-size: large;
+	font-size: small;
 }
 
 .smaller-content-box p {
@@ -238,4 +238,43 @@ nav div:nth-of-type(3) {
 	box-sizing: border-box;
 }
 
-//
+/* Section  2*/
+
+.section-two{
+	width: 100%;
+	padding: 0% 4%;	
+}
+
+.section-two h1 {
+	color: #f42;
+	font-weight: 800;
+	font-family: 'Bree Serif', serif;
+
+}
+
+.latest-news-parent {
+	display: flex;
+	column-width: 270px;
+	height: auto;
+	flex-wrap: wrap;
+
+}
+.latest-news-container {
+	width: 270px;
+	height: 251px;
+	margin-right:20px;
+}
+
+.latest-news-container img {
+	width: 270px;
+	height: 135px;
+}
+
+.latest-news-container h2 {
+	font-size: large;
+}
+
+.latest-news-container p {
+	color: #6d6c6c;
+	font-size: small;
+}

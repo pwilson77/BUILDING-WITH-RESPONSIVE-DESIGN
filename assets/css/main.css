@@ -46,3 +46,105 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+	margin:0px;
+}
+
+/*Navbar*/
+
+nav {
+	width: 100%;
+	font-family: Arial;
+}
+
+nav div {
+	width: inherit;
+	padding-left: 20px;	
+	box-sizing: border-box;
+	font-size: small;
+}
+
+nav div:nth-of-type(1) {
+	height:32px;
+	background-color: #131313;
+	padding-top: 10px;
+}
+
+nav div:nth-of-type(1) a {
+	color: #7e7e7e;
+	text-decoration: none;
+	padding-right: 7px;
+}
+
+nav div:nth-of-type(1) a:hover {
+	color: white;
+}
+
+nav div:nth-of-type(1) i {
+	font-size: x-small;
+	padding-top: 2px;
+}
+
+nav div:nth-of-type(2) {
+	height: 48px;
+	background-color: white;
+	font-family: 'Thasadith', sans-serif;
+	display: flex;
+}
+
+nav div:nth-of-type(2) a {
+		padding-top: 20px;
+	text-decoration: none;
+	color: #383737;
+	font-weight: 600;
+	padding-right: 2.5vw;
+}
+
+.TNW2019 {
+	width: auto;
+	padding-top: 13px !important;
+	background-color: unset !important;
+	position: relative;
+	left: 5vw;
+}
+
+.TNW2019 img {
+	width: 125px;
+	height: 10px;
+}
+
+.TNW2019 span {
+	padding-left: 20px;
+	font-weight: 900;
+}
+
+.TNW2019 span:nth-of-type(2) {
+	color: red;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.TNW2019 button {
+	background-color: rgb(0,204,204);
+	width: 80px;
+	height: 28px;
+	font-size: xx-small;
+	font-weight: bolder;
+	border-radius: 3px;
+	border-color: transparent;
+	color: white;
+	margin-left: 20px;
+}
+
+
+nav div:nth-of-type(3) {
+	height: 30px;
+	background-color: #ffdd33;
+	font-family: 'Thasadith', sans-serif;
+	color: #383737;
+	font-weight: 600;
+	padding-top: 7px;
+	word-spacing: 3px;
+}
+
+/*section one*/

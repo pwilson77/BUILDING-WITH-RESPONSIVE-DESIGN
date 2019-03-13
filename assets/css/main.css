@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,3 +50,95 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.container{
+	width: 100%;
+	padding: 50px 100px;
+}
+
+.hide{
+	clip: auto;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after, section::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Columns */
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+	/* border: 1px solid #333333; */
+}
+
+.col-6 {width: 16.66%;}
+.col-4 {width: 25%;}
+.col-3 {width: 33.33%;}
+.col-2 {width: 50%;}
+
+/* Section four */
+.section-four{
+
+}
+
+.section-four .card-body{
+	background: url("../image/portal-regulation.jpg") no-repeat, transparent url("../image/image-gradient.png") no-repeat;
+    background-size: inherit;
+	/* background-size: 100% 100%; */
+	padding: 12px;
+	height: 250px;
+	background-position: 50% 10%;
+}
+
+.section-four .card-footer-top{
+	width: 100%;
+	margin: 2px 0;
+	background-color: rgba(255,68,34,.06);
+}
+
+.section-four .card-footer-top p{
+	width: 65%;
+	margin: 12px 0 5px 12px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.section-four .card-footer-top p span{
+	display: block;
+	text-transform: uppercase;	
+}
+
+.section-four .card-footer-top img{
+	/* width: 25%; */
+	position: relative;
+	z-index: 2;
+	height: 96px;
+	width: 96px;
+}
+
+.section-four .card-footer-bottom ul li{
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 7px 0;
+}
+
+.section-four .card-footer-bottom ul{
+	margin: 0;
+	padding: 0 0 0 12px;
+	border: 0;
+	list-style: disc;
+}
+
+/* Section five */
+/* Footer */

@@ -1,6 +1,6 @@
 * http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -93,7 +93,7 @@ nav div:nth-of-type(2) {
 }
 
 nav div:nth-of-type(2) a {
-		padding-top: 20px;
+	padding-top: 20px;
 	text-decoration: none;
 	color: #383737;
 	font-weight: 600;
@@ -120,8 +120,8 @@ nav div:nth-of-type(2) a {
 
 .TNW2019 span:nth-of-type(2) {
 	color: red;
-    font-weight: 900;
-    font-size: medium;
+	font-weight: 900;
+	font-size: medium;
 }
 
 .TNW2019 button {
@@ -178,13 +178,13 @@ nav div:nth-of-type(3) {
 
 .larger-content-box div {
 	position: absolute;
-    background-color: #000000d9;
-    bottom: 0px;
-    width: 99%;
-    height: 529px;
-    display: flex;
-    align-items:flex-end;
-    flex-wrap: wrap;
+	background-color: #000000d9;
+	bottom: 0px;
+	width: 99%;
+	height: 529px;
+	display: flex;
+	align-items:flex-end;
+	flex-wrap: wrap;
 }
 
 .larger-content-box header {
@@ -207,13 +207,13 @@ nav div:nth-of-type(3) {
 
 .smaller-content-box div {
 	position: absolute;
-    background-color: #00000078;
-    bottom: 4px;
-    width: 99%;
-    height: 260px;
-    display: flex;
-    align-items:flex-end;
-    flex-wrap: wrap;
+	background-color: #00000078;
+	bottom: 4px;
+	width: 99%;
+	height: 260px;
+	display: flex;
+	align-items:flex-end;
+	flex-wrap: wrap;
 }
 
 .smaller-content-box header {
@@ -254,7 +254,6 @@ nav div:nth-of-type(3) {
 
 .latest-news-parent {
 	display: flex;
-	column-width: 270px;
 	height: auto;
 	flex-wrap: wrap;
 
@@ -277,4 +276,104 @@ nav div:nth-of-type(3) {
 .latest-news-container p {
 	color: #6d6c6c;
 	font-size: small;
+}
+
+/*Section 3*/
+.section-three{
+	width: 100%;
+	height:auto;
+	padding: 0% 4%;	
+}
+
+.section-three h1 {
+	color: #f42;
+	font-weight: 800;
+	font-family: 'Bree Serif', serif;
+
+}
+
+.funding-round {
+	width: 270px;
+	height: 270px;
+	margin-right:20px;
+}
+
+.funding-round-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.funding-round-card1 {
+	width: 270px;
+	height: 96px;
+	position: relative;
+}
+
+.funding-round-card1 img {
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+	position: absolute;
+	left: 6px;
+	top: 20px
+}
+
+.funding-round-card1 h4{
+	background-color:rgb(255, 68, 34);
+	box-sizing: border-box;
+	height: 39.31px;
+	margin:0px;
+	color: white;
+	padding-left: 70px;
+	padding-top: 11px;
+	font-weight: bolder;
+}
+
+.funding-round-card1 div {
+	background-color:rgba(255, 68, 34, 0.08);
+	height: 57.31px;
+}
+
+.funding-round-card1 h3 {
+	margin:0px;
+	padding-left: 70px;
+	padding-top: 11px;
+}
+.funding-round-card1 h5 {
+	margin:0px;
+	padding-left: 70px;
+	padding-top: 11px;
+	font-weight: 200;
+	color: #5a5959;
+}
+
+.funding-round-card2 {
+	width: 270px;
+	height: 82px;
+	padding: 16px;
+	background-color: #fffaf8;
+	box-sizing: border-box;
+	border-bottom:0.5px solid;
+	border-bottom-color:rgb(255, 68, 34); 
+}
+
+.funding-round-card2 i {
+	width: 100%;
+	padding-left: 4px; 
+	padding-top: 6px;
+	word-spacing: 5px;
+}
+
+.funding-round-card2 i span {
+	padding-left: 7px;
+}
+.funding-round-card3 {
+	width: 270px;
+	height: 90px;
+	background-color: #fffaf8;
+	padding: 16px;
+	font-size: small;
+	box-sizing: border-box;
+	color: #555;
 }

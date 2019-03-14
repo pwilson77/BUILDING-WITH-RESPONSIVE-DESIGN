@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,8 +50,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.container{
+	width: 100%;
+	padding: 50px 100px;
+}
+
+.hide{
+	clip: auto;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix::after, section::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 body {
 	margin:0px;
+	font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+	color: #555;
 }
 
 /*Navbar*/
@@ -238,6 +267,194 @@ nav div:nth-of-type(3) {
 	box-sizing: border-box;
 }
 
+
+/* Columns */
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+	/* border: 1px solid #333333; */
+}
+
+.col-6 {width: 16.66%;}
+.col-4 {width: 25%;}
+.col-3 {width: 33.33%;}
+.col-2 {width: 50%;}
+
+/* Section four */
+.section-four{
+
+}
+.section-four h2.card-head{
+	color: #f42;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.section-four h2.card-head i{
+	font-size: 1rem;
+	font-weight: 100;
+}
+.section-four .card-body{
+	background:  url("../image/image-gradient.png") 10% 30% no-repeat, url("../image/portal-regulation.jpg") 50% 10% no-repeat;
+    background-size: cover;
+	padding: 12px;
+	height: 250px;
+}
+
+.section-four .card-body p.card-body-text{
+	position: relative;
+	margin-top: 130px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #ffffff;
+}
+
+.section-four .card-body p.card-body-text span{
+	display: block;
+}
+
+.section-four .card-body p.card-body-text span:first-child{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+}
+
+.section-four .card-body p.card-body-text span:last-child{
+	margin-top: 10px;
+	margin-top: 5px;
+	font-size: 0.7rem;
+	font-weight: normal;
+}
+
+.section-four .card-footer-top{
+	width: 100%;
+	margin: 2px 0;
+	background-color: rgba(255,68,34,.06);
+	color: #f42;
+}
+
+.section-four .card-footer-top p{
+	width: 65%;
+	margin: 12px 0 5px 12px;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.section-four .card-footer-top p span{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.section-four .card-footer-top img{
+	/* width: 25%; */
+	position: relative;
+	z-index: 2;
+	height: 96px;
+	width: 96px;
+}
+
+.section-four .card-footer-bottom ul li{
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 7px 0;
+}
+
+.section-four .card-footer-bottom ul{
+	margin: 0;
+	padding: 0 0 0 12px;
+	border: 0;
+	list-style: disc;
+}
+
+/* Section five */
+.section-five h1{
+	padding: 0 12px;
+	color: #f42;
+	font-size: 1.5rem;
+}
+.section-five h1 i{
+	font-size: 1rem;
+	font-weight: 100;
+}
+.section-five h1 span{
+	font-size: 1rem;
+	font-weight: 100;
+	margin-right: 5px;
+}
+
+.section-five .deal-head{
+	background:  url("../image/sale_14911_primary_image.jpg") 50% 10% no-repeat;
+    background-size: cover;
+	padding: 12px;
+	height: 200px;
+	/* display: block; */
+}
+.section-five .deal-footer p{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.section-five .deal-footer p span{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 100;
+}
+.section-five .deal-footer p span span:only-child{
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: line-through;
+}
+
+/* Footer */
+footer .container {
+    width: 100%;
+    padding: 20px 100px;
+}
+footer{
+	text-align: center;
+	display: block;
+	color: #aaa;;
+}
+footer .social{
+	background-color: #131313;
+	color: #fff;
+}
+
+footer .social li{
+	display: inline-block;
+	margin: 0 8px;
+	background: #333;
+    border-radius: 50%;
+    /* display: block; */
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+} 
+
+footer .footer-nav{
+	background-color: #131313;
+}
+
+footer .footer-nav li{
+	display: inline-block;
+	margin: 0 8px;
+    /* padding: 12px; */
+} 
+
+footer .copyright{
+	background-color: #000;
+}
+
+footer .copyright p{
+	margin: 0 auto;
+	/* padding: 30px; */
 /* Section  2*/
 
 .section-two{

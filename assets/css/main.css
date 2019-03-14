@@ -224,6 +224,12 @@ nav div:nth-of-type(2) a {
 	padding-left: 0px;
 }
 
+.links-sec2 img {
+	width: 106px;
+	height: 48px;
+	display: none;
+}
+
 .TNW2019 {
 	width: 40%;
 	padding-top: 13px !important;
@@ -926,3 +932,108 @@ footer .copyright p {
 	}
 
 }
+	/* padding: 30px; */
+  }
+
+  /*Media Queries*/
+  @media only screen and (max-width: 1200px) {
+  	nav div:nth-of-type(2) a:nth-of-type(6), nav div:nth-of-type(2) a:nth-of-type(7) {
+  		display: none;
+  	}
+
+  	.TNW2019 {
+   		 width: 54%;
+   		 }
+  }
+
+   @media only screen and (max-width: 1100px) {
+   		 .TNW2019 button, .TNW2019 span:nth-of-type(1) {
+   			display: none;
+   		}
+
+   		.larger-content-box img, .larger-content-box div {
+   			height: 413px;
+   		}
+
+   		.larger-content-box p {
+   			font-size: xx-large !important;
+   		}
+
+   		.smaller-content-box img,.smaller-content-box div {
+   			height: 201px;
+   		}
+   		.section-two,.section-three {
+   			padding:0% 1%;
+   		}
+   		.TNW2019 {
+   		 width: 30%;
+   		 }
+
+   		 .links-sec2 {
+   		 	width: 70%;
+   		 }
+   		
+   }
+
+   @media only screen and (max-width: 760px) {
+   		nav .sec-1 {
+   			display: none;
+   		}
+
+   		.links-sec2 {
+   			padding-top: 0px;
+   		}
+
+   		.links-sec2 img {
+   			display: initial;
+   		}
+
+   		.links-sec2 a {
+   			display: none;
+   		}
+
+   		.section-one {
+   			flex-wrap: wrap;
+   		}
+
+   		.first,.second{	
+   			width: 100%;
+   		}
+   		.larger-content-box img, .larger-content-box div,.smaller-content-box img {
+   			height: 205px;
+   			
+   		}
+   		.larger-content-box p {
+   			font-weight: 700;
+   			font-size: medium !important;
+   		}
+
+   		.latest-news-container {
+   		width: 100%;	
+   		height: 88px;
+   		display: flex;
+
+   		}
+
+   		.latest-news-container h2,.latest-news-container p {
+   			font-size: small;
+   		}
+
+   		.latest-news-container div {
+   			padding-left: 20px;
+   		}
+
+   		.latest-news-container img {
+   			width: 75px;
+   			height: 75px;
+   		}
+   		.funding-round {
+   			width: 100%;	
+   		}
+   		.funding-round-card1,
+   		.funding-round-card2,
+   		.funding-round-card3{
+   			width: 100%;
+   		}
+
+   }

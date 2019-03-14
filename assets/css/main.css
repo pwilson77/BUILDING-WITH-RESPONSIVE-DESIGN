@@ -136,6 +136,12 @@ nav div:nth-of-type(2) a {
     padding-left: 0px;
 }
 
+.links-sec2 img {
+	width: 106px;
+	height: 48px;
+	display: none;
+}
+
 .TNW2019 {
 	width:40%;
 	padding-top: 13px !important;
@@ -644,6 +650,14 @@ footer .copyright p{
    @media only screen and (max-width: 760px) {
    		nav .sec-1 {
    			display: none;
+   		}
+
+   		.links-sec2 {
+   			padding-top: 0px;
+   		}
+
+   		.links-sec2 img {
+   			display: initial;
    		}
 
    		.links-sec2 a {

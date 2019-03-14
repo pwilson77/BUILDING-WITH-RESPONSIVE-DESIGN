@@ -268,6 +268,148 @@ nav div:nth-of-type(3) {
 }
 
 
+/* Section  2*/
+
+.section-two {
+	width: 100%;
+	padding: 0% 4%;	
+	box-sizing: border-box;
+}
+
+.section-two h1 {
+	color: #f42;
+	font-weight: 800;
+	font-family: 'Bree Serif', serif;
+
+}
+
+.latest-news-parent {
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+
+}
+.latest-news-container {
+	width: 270px;
+	height: 251px;
+	margin-right:20px;
+}
+
+.latest-news-container img {
+	width: 270px;
+	height: 135px;
+}
+
+.latest-news-container h2 {
+	font-size: large;
+}
+
+.latest-news-container p {
+	color: #6d6c6c;
+	font-size: small;
+}
+
+/*Section 3*/
+.section-three{
+	width: 100%;
+	height:auto;
+	padding: 0% 4%;	
+	box-sizing: border-box;
+}
+
+.section-three h1 {
+	color: #f42;
+	font-weight: 800;
+	font-family: 'Bree Serif', serif;
+
+}
+
+.funding-round {
+	width: 270px;
+	height: 270px;
+	margin-right:20px;
+}
+
+.funding-round-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.funding-round-card1 {
+	width: 270px;
+	height: 96px;
+	position: relative;
+}
+
+.funding-round-card1 img {
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+	position: absolute;
+	left: 6px;
+	top: 20px
+}
+
+.funding-round-card1 h4{
+	background-color:rgb(255, 68, 34);
+	box-sizing: border-box;
+	height: 39.31px;
+	margin:0px;
+	color: white;
+	padding-left: 70px;
+	padding-top: 11px;
+	font-weight: bolder;
+}
+
+.funding-round-card1 div {
+	background-color:rgba(255, 68, 34, 0.08);
+	height: 57.31px;
+}
+
+.funding-round-card1 h3 {
+	margin:0px;
+	padding-left: 70px;
+	padding-top: 11px;
+}
+.funding-round-card1 h5 {
+	margin:0px;
+	padding-left: 70px;
+	padding-top: 11px;
+	font-weight: 200;
+	color: #5a5959;
+}
+
+.funding-round-card2 {
+	width: 270px;
+	height: 82px;
+	padding: 16px;
+	background-color: #fffaf8;
+	box-sizing: border-box;
+	border-bottom:0.5px solid;
+	border-bottom-color:rgb(255, 68, 34); 
+}
+
+.funding-round-card2 i {
+	width: 100%;
+	padding-left: 4px; 
+	padding-top: 6px;
+	word-spacing: 5px;
+}
+
+.funding-round-card2 i span {
+	padding-left: 7px;
+}
+.funding-round-card3 {
+	width: 270px;
+	height: 90px;
+	background-color: #fffaf8;
+	padding: 16px;
+	font-size: small;
+	box-sizing: border-box;
+	color: #555;
+}
+
 /* Columns */
 [class*="col-"] {
 	float: left;
@@ -455,144 +597,4 @@ footer .copyright{
 footer .copyright p{
 	margin: 0 auto;
 	/* padding: 30px; */
-/* Section  2*/
-
-.section-two{
-	width: 100%;
-	padding: 0% 4%;	
-	box-sizing: border-box;
-}
-
-.section-two h1 {
-	color: #f42;
-	font-weight: 800;
-	font-family: 'Bree Serif', serif;
-
-}
-
-.latest-news-parent {
-	display: flex;
-	height: auto;
-	flex-wrap: wrap;
-
-}
-.latest-news-container {
-	width: 270px;
-	height: 251px;
-	margin-right:20px;
-}
-
-.latest-news-container img {
-	width: 270px;
-	height: 135px;
-}
-
-.latest-news-container h2 {
-	font-size: large;
-}
-
-.latest-news-container p {
-	color: #6d6c6c;
-	font-size: small;
-}
-
-/*Section 3*/
-.section-three{
-	width: 100%;
-	height:auto;
-	padding: 0% 4%;	
-	box-sizing: border-box;
-}
-
-.section-three h1 {
-	color: #f42;
-	font-weight: 800;
-	font-family: 'Bree Serif', serif;
-
-}
-
-.funding-round {
-	width: 270px;
-	height: 270px;
-	margin-right:20px;
-}
-
-.funding-round-container {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 30px;
-}
-
-.funding-round-card1 {
-	width: 270px;
-	height: 96px;
-	position: relative;
-}
-
-.funding-round-card1 img {
-	width: 50px;
-	height: 50px;
-	z-index: 100;
-	position: absolute;
-	left: 6px;
-	top: 20px
-}
-
-.funding-round-card1 h4{
-	background-color:rgb(255, 68, 34);
-	box-sizing: border-box;
-	height: 39.31px;
-	margin:0px;
-	color: white;
-	padding-left: 70px;
-	padding-top: 11px;
-	font-weight: bolder;
-}
-
-.funding-round-card1 div {
-	background-color:rgba(255, 68, 34, 0.08);
-	height: 57.31px;
-}
-
-.funding-round-card1 h3 {
-	margin:0px;
-	padding-left: 70px;
-	padding-top: 11px;
-}
-.funding-round-card1 h5 {
-	margin:0px;
-	padding-left: 70px;
-	padding-top: 11px;
-	font-weight: 200;
-	color: #5a5959;
-}
-
-.funding-round-card2 {
-	width: 270px;
-	height: 82px;
-	padding: 16px;
-	background-color: #fffaf8;
-	box-sizing: border-box;
-	border-bottom:0.5px solid;
-	border-bottom-color:rgb(255, 68, 34); 
-}
-
-.funding-round-card2 i {
-	width: 100%;
-	padding-left: 4px; 
-	padding-top: 6px;
-	word-spacing: 5px;
-}
-
-.funding-round-card2 i span {
-	padding-left: 7px;
-}
-.funding-round-card3 {
-	width: 270px;
-	height: 90px;
-	background-color: #fffaf8;
-	padding: 16px;
-	font-size: small;
-	box-sizing: border-box;
-	color: #555;
-}
+  }

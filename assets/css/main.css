@@ -766,6 +766,12 @@ footer .copyright p {
 		font-size: 0.8rem;
 		margin: 15px auto;
 	}
+	.TNW2019 {
+		width: 30%;
+		}
+	.links-sec2 {
+		width: 70%;
+	}
 
 }
 
@@ -840,3 +846,19 @@ footer .copyright p {
    			font-size: smaller;
    		}
    }
+
+@media only screen and (max-width: 400px) {
+	footer .social li {
+		width: 30px;
+		height: 30px;
+		font-size: small;
+		padding: 9px;
+	}	
+
+	footer .footer-nav li {
+		font-size: x-small;
+	}
+	nav div:nth-of-type(3) {
+		font-size: xx-small;
+	}
+}

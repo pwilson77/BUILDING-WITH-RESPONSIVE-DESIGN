@@ -1,13 +1,13 @@
 /* Main Style */
+
 .container {
 	width: 100%;
-	padding: 50px 100px;
+	padding: 50px 40px;
 }
 
 .hide {
 	visibility: hidden;
 }
-
 
 .left {
 	float: left;
@@ -187,6 +187,7 @@ nav div:nth-of-type(3) {
 .larger-content-box header {
 	width: 90%;
 	padding-left: 20px;
+	padding-bottom: 30px;
 }
 
 .larger-content-box div h1 {
@@ -227,6 +228,8 @@ nav div:nth-of-type(3) {
 	font-size: larger;
 	color: white;
 	font-weight: 700;
+	padding-bottom: 20px;
+	padding-top: 10px;
 }
 
 .smaller-content-box {
@@ -240,14 +243,18 @@ nav div:nth-of-type(3) {
 
 .section-two {
 	width: 100%;
-	padding: 0% 4%;
+	padding: 1% 43px;
 	box-sizing: border-box;
+	    
 }
 
 .section-two h1 {
 	color: #f42;
 	font-weight: 800;
 	font-family: 'Bree Serif', serif;
+	font-size: x-large;
+	padding-left: 10px;
+	padding-bottom: 10px;	
 
 }
 
@@ -259,19 +266,25 @@ nav div:nth-of-type(3) {
 }
 
 .latest-news-container {
-	width: 282px;
+	width: 25%;
 	height: 251px;
 	padding: 10px;
 	box-sizing: border-box;
 }
 
+
 .latest-news-container img {
-	width: 270px;
+	width: 99%;
 	height: 135px;
+}
+
+.latest-news-container div {
+	width: 99%;
 }
 
 .latest-news-container h2 {
 	font-size: large;
+	    padding: 10px 0px;
 }
 
 .latest-news-container p {
@@ -283,7 +296,7 @@ nav div:nth-of-type(3) {
 .section-three {
 	width: 100%;
 	height: auto;
-	padding: 0% 4%;
+	padding: 1% 4%;
 	box-sizing: border-box;
 }
 
@@ -291,13 +304,19 @@ nav div:nth-of-type(3) {
 	color: #f42;
 	font-weight: 800;
 	font-family: 'Bree Serif', serif;
-
+	    padding-left: 10px;
+	font-size: x-large;	
 }
 
 .funding-round {
-	width: 270px;
+	width: 25%;
 	height: 270px;
-	margin-right: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.funding-round:nth-of-type(4){
+	margin-right: 0px;
 }
 
 .funding-round-container {
@@ -307,7 +326,7 @@ nav div:nth-of-type(3) {
 }
 
 .funding-round-card1 {
-	width: 270px;
+	width:100%;
 	height: 96px;
 	position: relative;
 }
@@ -352,7 +371,7 @@ nav div:nth-of-type(3) {
 }
 
 .funding-round-card2 {
-	width: 270px;
+	width: 100%;
 	height: 82px;
 	padding: 16px;
 	background-color: #fffaf8;
@@ -373,7 +392,7 @@ nav div:nth-of-type(3) {
 }
 
 .funding-round-card3 {
-	width: 270px;
+	width: 100%;
 	height: 90px;
 	background-color: #fffaf8;
 	padding: 16px;
@@ -410,6 +429,7 @@ nav div:nth-of-type(3) {
 	color: #f42;
 	font-size: 1.5rem;
 	font-weight: bold;
+	padding-bottom: 12px;
 }
 
 .section-four h2.card-head i {
@@ -631,6 +651,21 @@ footer .copyright p {
 	.hide {
 		visibility: hidden;
 	}
+	.funding-round, .latest-news-container {
+		width: 33%;
+	}
+
+	.funding-round:nth-of-type(4){
+		display: none;
+	}
+
+	.links-sec2 {
+		width: 80%;
+	}
+
+	.TNW2019 {
+		width: 20%;
+	}
 
 	/* Columns */
 	[class*="col-"] {
@@ -652,6 +687,7 @@ footer .copyright p {
 	.col-m-2 {
 		width: 50%;
 	}
+
 
 }
 
@@ -708,7 +744,7 @@ footer .copyright p {
 
 	footer .container {
 		width: 100%;
-		padding: 10px 150px;
+		padding: 10px 0px;
 	}
 
 	footer .social .container, footer .footer-nav .container {
@@ -736,113 +772,15 @@ footer .copyright p {
 		font-size: 0.8rem;
 		margin: 15px auto;
 	}
-
-}
-
-@media only screen and (max-width: 760px) {
-	nav .sec-1 {
-		display: none;
-	}
-
-	.links-sec2 a {
-		display: none;
-	}
-
-	.section-one {
-		flex-wrap: wrap;
-	}
-
-	.first,
-	.second {
-		width: 100%;
-	}
-
-	.larger-content-box img,
-	.larger-content-box div,
-	.smaller-content-box img {
-		height: 205px;
-
-	}
-
-	.larger-content-box p {
-		font-weight: 700;
-		font-size: medium !important;
-	}
-
-	.latest-news-container {
-		width: 100%;
-		height: 88px;
-		display: flex;
-
-	}
-
-	.latest-news-container h2,
-	.latest-news-container p {
-		font-size: small;
-	}
-
-	.latest-news-container div {
-		padding-left: 20px;
-	}
-
-	.latest-news-container img {
-		width: 75px;
-		height: 75px;
-	}
-
-	.funding-round {
-		width: 100%;
-	}
-
-	.funding-round-card1,
-	.funding-round-card2,
-	.funding-round-card3 {
-		width: 100%;
+	.TNW2019 {
+		width: 30%;
+		}
+	.links-sec2 {
+		width: 70%;
 	}
 
 }
-	/* padding: 30px; */
-  }
 
-  /*Media Queries*/
-  @media only screen and (max-width: 1200px) {
-  	nav div:nth-of-type(2) a:nth-of-type(6), nav div:nth-of-type(2) a:nth-of-type(7) {
-  		display: none;
-  	}
-
-  	.TNW2019 {
-   		 width: 54%;
-   		 }
-  }
-
-   @media only screen and (max-width: 1100px) {
-   		 .TNW2019 button, .TNW2019 span:nth-of-type(1) {
-   			display: none;
-   		}
-
-   		.larger-content-box img, .larger-content-box div {
-   			height: 413px;
-   		}
-
-   		.larger-content-box p {
-   			font-size: xx-large !important;
-   		}
-
-   		.smaller-content-box img,.smaller-content-box div {
-   			height: 201px;
-   		}
-   		.section-two,.section-three {
-   			padding:0% 1%;
-   		}
-   		.TNW2019 {
-   		 width: 30%;
-   		 }
-
-   		 .links-sec2 {
-   		 	width: 70%;
-   		 }
-   		
-   }
 
    @media only screen and (max-width: 760px) {
    		nav .sec-1 {
@@ -851,7 +789,12 @@ footer .copyright p {
 
    		.links-sec2 {
    			padding-top: 0px;
+   			width: 40%;
    		}
+
+   		.TNW2019 {
+		width: 60%;
+		}
 
    		.links-sec2 img {
    			display: initial;
@@ -905,4 +848,23 @@ footer .copyright p {
    			width: 100%;
    		}
 
+   		nav div:nth-of-type(3) {
+   			font-size: smaller;
+   		}
    }
+
+@media only screen and (max-width: 400px) {
+	footer .social li {
+		width: 30px;
+		height: 30px;
+		font-size: small;
+		padding: 9px;
+	}	
+
+	footer .footer-nav li {
+		font-size: x-small;
+	}
+	nav div:nth-of-type(3) {
+		font-size: xx-small;
+	}
+}
